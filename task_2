@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Active Sports - Play Hard, Shine Bright</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header -->
+<div class="header-container">
+    <h1>Active Sports Club</h1>
+    <p><b>"Discipline. Humble. Teamwork. Hardwork."</b></p>
+</div>
+<hr class="hr-top">
+
+<!-- Banner -->
+<div class="banner-container">
+    <img src="sports_banners.png" width="750" height="250" alt="Sports Banner">
+    <p><i>Dream as big you can dream, and anything is possible.</i></p>
+</div>
+
+<!-- About Section -->
+<h1>About Our Club</h1>
+<table class="about-table">
+    <tr>
+        <th>Our Mission</th>
+        <th>Available Sports</th>
+        <th>Who Can Join</th>
+    </tr>
+    <tr>
+        <td>Promote Fitness, Sportmanship, and Humbleness in competition among students and youth.</td>
+        <td>Basketball, Volleyball, Badminton, Table Tennis, and Athletics.</td>
+        <td>All whoever wants - Beginners, Advance Players, and Professional Players.</td>
+    </tr>
+</table>
+
+<hr style="width:90%; height:4px;">
+
+<!-- Programs Section -->
+<h1>Our Sports Programs</h1>
+<p><b>Choose your game and start your passion!</b></p>
+<table class="programs-table">
+    <tr>
+        <td>
+            <img src="basketball.webp" width="150" height="150" alt="Basketball"><br>
+            <b>Basketball</b>
+        </td>
+        <td>
+            <img src="volleyball.webp" width="150" height="150" alt="Volleyball"><br>
+            <b>Volleyball</b>
+        </td>
+        <td>
+            <img src="badminton.avif" width="150" height="150" alt="Badminton"><br>
+            <b>Badminton</b>
+        </td>
+    </tr>
+</table>
+
+<hr style="width:90%; height:4px;">
+
+<!-- Why Play Sports -->
+<h2>Why Play Sports?</h2>
+<div class="why-container">
+    <p>Sports are more than just games — it builds character.</p>
+    <p>Regular physical activity keeps your body strong, your mind sharp, and helps you manage stress better.</p>
+    <p>Respect the game, respect your teammates, and always give your best effort.</p>
+</div>
+
+<hr style="width:90%; height:4px;">
+
+<!-- Registration Form -->
+<h1>Join Now to Become Better!</h1>
+<p><b>Fill out the form below to sign up for training and club updates.</b></p>
+<form action="#" method="post">
+    <table class="form-table">
+        <tr>
+            <td><label for="fname">Full Name:</label></td>
+            <td><input type="text" id="fname" name="fullname" size="30" required></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email Address:</label></td>
+            <td><input type="email" id="email" name="email" size="30" required></td>
+        </tr>
+        <tr>
+            <td><label for="number">Contact Number:</label></td>
+            <td><input type="tel" id="number" name="phone" size="30"></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Sport Interest:</td>
+            <td>
+                <input type="checkbox" id="bb" name="sport" value="Basketball">
+                <label for="bb">Basketball</label>
+                <input type="checkbox" id="vb" name="sport" value="Volleyball">
+                <label for="vb">Volleyball</label>
+                <input type="checkbox" id="bm" name="sport" value="Badminton">
+                <label for="bm">Badminton</label>
+                <input type="checkbox" id="at" name="sport" value="Athletics">
+                <label for="at">Athletics</label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Register Now">
+                <input type="reset" value="Clear Form">
+            </td>
+        </tr>
+    </table>
+</form>
+
+<hr class="footer-hr">
+
+<!-- Footer -->
+<div class="footer-text">
+    <p><i>Active Sports Club. All Rights Reserved.</i></p>
+    <p>Created by: <b>Brent Joshua L. Perez</b> | <b>BSIT 2B</b></p>
+</div>
+
+</body>
+</html>
